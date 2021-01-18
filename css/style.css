@@ -521,7 +521,7 @@ body{
 
 .intro{
     min-height: 100vh;
-    background: url(../img/intro-bg.png) no-repeat center;
+    background: url(../img/intro-bg-min.png) no-repeat center;
     background-size: cover;
     padding-top: 263px;
     padding-bottom: 223px;
@@ -653,12 +653,12 @@ body{
     line-height: 24px;
     color: #006DFE;
     text-decoration: none;
-    background: url(../img/arrow-right-icon.svg) no-repeat 95% center;
+    background: url(../img/svg/arrow-right-icon.svg) no-repeat 95% center;
     transition: .2s all;
 }
 
 .benafits__card-more:hover, .benafits__card-more:focus{
-    background: url(../img/arrow-right-icon.svg) no-repeat right center;
+    background: url(../img/svg/arrow-right-icon.svg) no-repeat right center;
 }
 /*Benefits styles end*/
 
@@ -686,7 +686,7 @@ body{
     color: #006DFE;
     text-decoration: none;
     padding-right: 59px;
-    background: url(../img/arrow-right-icon.svg) no-repeat right center;
+    background: url(../img/svg/arrow-right-icon.svg) no-repeat right center;
 }
 
 .places__view-all:hover, .places__view-all:focus{
@@ -696,7 +696,7 @@ body{
 .places__cards{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-gap: 10px;
+    gap: 10px;
 }
 
 .places__card{
@@ -774,7 +774,7 @@ body{
 .tours__tour {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 0 108px;
+    gap: 0 108px;
     align-items: center;
     margin-bottom: 77px;
 }
@@ -824,7 +824,7 @@ body{
 .top__cards{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-gap: 57px;
+    gap: 57px;
 }
 
 .top__card{
@@ -1002,7 +1002,7 @@ body{
         margin-bottom: 15px;
     }
     .tours__tour{
-        grid-gap: 0 35px;
+        gap: 0 35px;
     }
     .tour__desc{
         margin-bottom: 15px;
@@ -1111,7 +1111,7 @@ body{
     }
     .search-form__field{
         font-size: 14px;
-        background: transparent url(../img/circle-icon.svg) no-repeat left 2px;
+        background: transparent url(../img/svg/circle-icon.svg) no-repeat left 2px;
     }
     .search-form__submit{
         width: 100%;
